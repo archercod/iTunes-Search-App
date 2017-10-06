@@ -16,6 +16,7 @@
 		EA4FB89D1F88207600F1A6FB /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4FB89C1F88207600F1A6FB /* Genre.swift */; };
 		EA4FB89F1F8820CE00F1A6FB /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4FB89E1F8820CE00F1A6FB /* Album.swift */; };
 		EA4FB8A11F88231000F1A6FB /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4FB8A01F88231000F1A6FB /* Song.swift */; };
+		EA4FB8A31F88263500F1A6FB /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4FB8A21F88263500F1A6FB /* Stub.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		EA4FB89C1F88207600F1A6FB /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
 		EA4FB89E1F8820CE00F1A6FB /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 		EA4FB8A01F88231000F1A6FB /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		EA4FB8A21F88263500F1A6FB /* Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stub.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				EA4FB89C1F88207600F1A6FB /* Genre.swift */,
 				EA4FB89E1F8820CE00F1A6FB /* Album.swift */,
 				EA4FB8A01F88231000F1A6FB /* Song.swift */,
+				EA4FB8A21F88263500F1A6FB /* Stub.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				EA4FB8861F881F3E00F1A6FB /* AppDelegate.swift in Sources */,
 				EA4FB89D1F88207600F1A6FB /* Genre.swift in Sources */,
 				EA4FB89F1F8820CE00F1A6FB /* Album.swift in Sources */,
+				EA4FB8A31F88263500F1A6FB /* Stub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
