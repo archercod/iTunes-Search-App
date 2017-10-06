@@ -23,6 +23,7 @@ class SearchResultsController: UITableViewController {
         searchController.searchResultsUpdater = self
         
         tableView.dataSource = dataSource
+        definesPresentationContext = true //dont show searchbar in next AlbumsViewController
     }
 
     @objc func dismissSearchResultsController() {
