@@ -203,7 +203,7 @@
                             </constraints>
                         </view>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SongCell" id="pvV-9i-DGf">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SongCell" id="pvV-9i-DGf" customClass="SongCell" customModule="iTunes_Search_App" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="155.5" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pvV-9i-DGf" id="taj-6n-g4V">
@@ -230,6 +230,10 @@
                                         <constraint firstItem="2qh-3F-ORn" firstAttribute="centerY" secondItem="taj-6n-g4V" secondAttribute="centerY" id="zcj-VX-db2"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="songRuntimeLabel" destination="nLJ-AE-jA9" id="mjF-S8-8Na"/>
+                                    <outlet property="songeTitleLabel" destination="2qh-3F-ORn" id="oVE-F5-IWx"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
