@@ -15,6 +15,7 @@
 		EA4FB89B1F881F7400F1A6FB /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4FB89A1F881F7400F1A6FB /* Artist.swift */; };
 		EA4FB89D1F88207600F1A6FB /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4FB89C1F88207600F1A6FB /* Genre.swift */; };
 		EA4FB89F1F8820CE00F1A6FB /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4FB89E1F8820CE00F1A6FB /* Album.swift */; };
+		EA4FB8A11F88231000F1A6FB /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4FB8A01F88231000F1A6FB /* Song.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		EA4FB89A1F881F7400F1A6FB /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		EA4FB89C1F88207600F1A6FB /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
 		EA4FB89E1F8820CE00F1A6FB /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		EA4FB8A01F88231000F1A6FB /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				EA4FB89A1F881F7400F1A6FB /* Artist.swift */,
 				EA4FB89C1F88207600F1A6FB /* Genre.swift */,
 				EA4FB89E1F8820CE00F1A6FB /* Album.swift */,
+				EA4FB8A01F88231000F1A6FB /* Song.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA4FB8A11F88231000F1A6FB /* Song.swift in Sources */,
 				EA4FB89B1F881F7400F1A6FB /* Artist.swift in Sources */,
 				EA4FB8881F881F3E00F1A6FB /* ViewController.swift in Sources */,
 				EA4FB8861F881F3E00F1A6FB /* AppDelegate.swift in Sources */,
