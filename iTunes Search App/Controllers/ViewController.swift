@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let searchEndpoint = Itunes.search(term: "taylor swift", media: .music(entity: .musicArtist, attribute: .artistTerm))
+        let searchEndpoint = Itunes.search(type: "taylor swift", media: .music(entity: .musicArtist, attribute: .artistTerm))
         print(searchEndpoint.request)
     }
     
