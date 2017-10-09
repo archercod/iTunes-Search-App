@@ -44,7 +44,7 @@ func queryComponentsWith(key: String, value: Any) -> [(String, String)] {
     return components
 }
 
-let parameters = ["foo": ["bar": 1]]
+let parameters = ["foo": "#"]
 encodeParametersInUrl(parameters)
 
 
